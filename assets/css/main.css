@@ -2200,7 +2200,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			height: 20em;
+			height: 19em;
 			border-radius: 0;
 		}
 
@@ -2707,7 +2707,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: center;
 		top: 0;
-		width: 23em;
+		width: 18em;
 		right: 0;
 	}
 
@@ -2819,7 +2819,7 @@ input, select, textarea {
 
 	#wrapper {
 		background: #fff; /* BACKGROUND DEL SITO */
-		padding-right: 23em;
+		padding-right: 18em;
 	}
 
 /* Main */
