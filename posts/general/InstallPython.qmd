@@ -1,0 +1,9 @@
+---
+title: "Installing python"
+
+description: Short guide to how to install and manange python using Mamba. This is how i like to install python and I suggested multiple time to install python.
+date: 5/10/2024
+categories:
+  - Python
+  - Getting started
+---

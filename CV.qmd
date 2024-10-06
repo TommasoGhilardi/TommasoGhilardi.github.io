@@ -1,0 +1,11 @@
+---
+title: "CV"
+
+format: 
+  html:
+    page-layout: full
+    toc: false
+---
+
+
+{{< pdf /resources/Cv.pdf width=600px height=400px >}}

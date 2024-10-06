@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Tommaso Ghilardi</title>
+<link>https://tommasoghilardi.github.io/Listing.html</link>
+<atom:link href="https://tommasoghilardi.github.io/Listing.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.5.47</generator>
+<lastBuildDate>Thu, 09 May 2024 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Installing python</title>
+  <link>https://tommasoghilardi.github.io/posts/general/InstallPython.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+ ]]></description>
+  <category>Python</category>
+  <category>Getting started</category>
+  <guid>https://tommasoghilardi.github.io/posts/general/InstallPython.html</guid>
+  <pubDate>Thu, 09 May 2024 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>CV</title>
+  <link>https://tommasoghilardi.github.io/posts/stats/test1.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="card text-white bg-dark mb-3 rounded d-flex">
+<div class="d-flex justify-content-between align-items-start p-3" style="width: 100%;">
+<pre><code>&lt;div&gt;
+  &lt;h4 class="card-title"&gt;Primary card title&lt;/h4&gt;
+  &lt;p class="card-text"&gt;
+    Some quick example text to build on the card title and make up the bulk of the card's content.
+  &lt;/p&gt;
+&lt;/div&gt;
+&lt;i class="bi bi-person-fill" style="font-size: 80px;"&gt;&lt;/i&gt;</code></pre>
+</div>
+</div>
+<div class="card text-black bg-secondary mb-3 rounded d-flex">
+<div class="d-flex justify-content-between align-items-start p-3" style="width: 100%;">
+<pre><code>&lt;div&gt;
+  &lt;h4 class="card-title"&gt;Primary card title&lt;/h4&gt;
+  &lt;p class="card-text"&gt;
+    Some quick example text to build on the card title and make up the bulk of the card's content.
+  &lt;/p&gt;
+&lt;/div&gt;
+&lt;i class="bi bi-person-fill" style="font-size: 80px; color: #343a40;"&gt;&lt;/i&gt; </code></pre>
+</div>
+</div>
+<div class="card mb-3 rounded">
+<div class="card-body">
+<pre><code>&lt;h5 class="card-title"&gt;Special title treatment&lt;/h5&gt;
+&lt;h6 class="card-subtitle text-muted"&gt;Support card subtitle&lt;/h6&gt;</code></pre>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" preserveaspectratio="xMidYMid slice" viewbox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle"> <rect width="100%" height="100%" fill="#868e96"></rect> <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text> </svg>
+<div class="card-body">
+<pre><code>&lt;p class="card-text"&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;</code></pre>
+</div>
+<div class="card-body">
+<pre><code>&lt;a href="#" class="card-link"&gt;Card link&lt;/a&gt;
+&lt;a href="#" class="card-link"&gt;Another link&lt;/a&gt;</code></pre>
+</div>
+<div class="card-footer text-muted">
+<pre><code>2 days ago</code></pre>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>Python</category>
+  <category>Mixed effects modelling</category>
+  <guid>https://tommasoghilardi.github.io/posts/stats/test1.html</guid>
+  <pubDate>Sat, 05 Oct 2024 20:57:02 GMT</pubDate>
+</item>
+<item>
+  <title>CV</title>
+  <link>https://tommasoghilardi.github.io/posts/stats/test2.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="card text-white bg-dark mb-3 rounded d-flex">
+<div class="d-flex justify-content-between align-items-start p-3" style="width: 100%;">
+<pre><code>&lt;div&gt;
+  &lt;h4 class="card-title"&gt;Primary card title&lt;/h4&gt;
+  &lt;p class="card-text"&gt;
+    Some quick example text to build on the card title and make up the bulk of the card's content.
+  &lt;/p&gt;
+&lt;/div&gt;
+&lt;i class="bi bi-person-fill" style="font-size: 80px;"&gt;&lt;/i&gt;</code></pre>
+</div>
+</div>
+<div class="card text-black bg-secondary mb-3 rounded d-flex">
+<div class="d-flex justify-content-between align-items-start p-3" style="width: 100%;">
+<pre><code>&lt;div&gt;
+  &lt;h4 class="card-title"&gt;Primary card title&lt;/h4&gt;
+  &lt;p class="card-text"&gt;
+    Some quick example text to build on the card title and make up the bulk of the card's content.
+  &lt;/p&gt;
+&lt;/div&gt;
+&lt;i class="bi bi-person-fill" style="font-size: 80px; color: #343a40;"&gt;&lt;/i&gt; </code></pre>
+</div>
+</div>
+<div class="card mb-3 rounded">
+<div class="card-body">
+<pre><code>&lt;h5 class="card-title"&gt;Special title treatment&lt;/h5&gt;
+&lt;h6 class="card-subtitle text-muted"&gt;Support card subtitle&lt;/h6&gt;</code></pre>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" preserveaspectratio="xMidYMid slice" viewbox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle"> <rect width="100%" height="100%" fill="#868e96"></rect> <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text> </svg>
+<div class="card-body">
+<pre><code>&lt;p class="card-text"&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;</code></pre>
+</div>
+<div class="card-body">
+<pre><code>&lt;a href="#" class="card-link"&gt;Card link&lt;/a&gt;
+&lt;a href="#" class="card-link"&gt;Another link&lt;/a&gt;</code></pre>
+</div>
+<div class="card-footer text-muted">
+<pre><code>2 days ago</code></pre>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>R</category>
+  <category>Mixed effects modelling</category>
+  <guid>https://tommasoghilardi.github.io/posts/stats/test2.html</guid>
+  <pubDate>Sat, 05 Oct 2024 20:57:02 GMT</pubDate>
+</item>
+<item>
+  <title>CV</title>
+  <link>https://tommasoghilardi.github.io/posts/general/test4.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="card text-white bg-dark mb-3 rounded d-flex">
+  <div class="d-flex justify-content-between align-items-start p-3" style="width: 100%;">
+    <div>
+      <h4 class="card-title anchored">Primary card title</h4>
+      <p class="card-text">
+        Some quick example text to build on the card title and make up the bulk of the card's content.
+      </p>
+    </div>
+    <i class="bi bi-person-fill" style="font-size: 80px;"></i>
+  </div>
+</div>
+<div class="card text-black bg-secondary mb-3 rounded d-flex">
+  <div class="d-flex justify-content-between align-items-start p-3" style="width: 100%;">
+    <div>
+      <h4 class="card-title anchored">Primary card title</h4>
+      <p class="card-text">
+        Some quick example text to build on the card title and make up the bulk of the card's content.
+      </p>
+    </div>
+    <i class="bi bi-person-fill" style="font-size: 80px; color: #343a40;"></i> 
+  </div>
+</div>
+<div class="card mb-3 rounded">
+  <div class="card-body">
+    <h5 class="card-title anchored">Special title treatment</h5>
+    <h6 class="card-subtitle text-muted anchored">Support card subtitle</h6>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" preserveaspectratio="xMidYMid slice" viewbox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+    <rect width="100%" height="100%" fill="#868e96"></rect>
+    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+  </svg>
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  <div class="card-body">
+    Card link
+    Another link
+  </div>
+  <div class="card-footer text-muted">
+    2 days ago
+  </div>
+</div>
+
+
+
+ ]]></description>
+  <guid>https://tommasoghilardi.github.io/posts/general/test4.html</guid>
+  <pubDate>Sat, 05 Oct 2024 20:57:02 GMT</pubDate>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,26 @@
+project:
+  type: website
+  resources:
+    - resources/Cv.pdf
+    
+website:
+  title: "Tommaso Ghilardi"
+  site-url: "https://tommasoghilardi.github.io"
+  navbar:
+    background: dark
+    
+    right:
+      - href: CV.qmd
+        text: CV
+      - href: Listing.qmd
+        text: Blog
+        
+
+format:
+  html:
+    theme: lux
+    css: styles.css
+    toc: true
+
+editor: visual
+

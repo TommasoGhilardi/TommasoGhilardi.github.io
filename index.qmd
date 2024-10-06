@@ -1,0 +1,30 @@
+---
+title: "About me"
+about:
+  id: hero-heading
+  template: jolla
+  image: Tommaso.jpg
+  links:
+    - text: "{{< iconify pepicons-print cv >}} CV"
+      href: resources/Cv.pdf
+    - icon: github
+      text: Github
+      href: https://github.com
+    - icon: twitter-x
+      text: twitter
+      href: https://x.com/TommasoGhi
+    - icon: linkedin
+      text: Linkedin
+      href: https://github.com/TommasoGhilardi
+    - text: "{{< iconify simple-icons orcid >}} Orcid"
+      href: https://orcid.org/0000-0003-0855-2814
+      
+format: 
+  html:
+    page-layout: full
+    toc: false
+---
+
+::: {#hero-heading style="text-align: justify;"}
+I hold a Ph.D. in developmental science with a strong focus on analyzing complex, real-world data, exploring the stories behind the data, and deriving actionable insights through advanced statistical analysis and computational modeling. I am passionate about sharing knowledge and translating detailed analyses into clear, accessible insights for diverse audiences. To further this, I created [**DevStart**](https://tommasoghilardi.github.io/DevStart), a website where I share simple tutorials to help others understand and apply what I have learned over the years.
+:::

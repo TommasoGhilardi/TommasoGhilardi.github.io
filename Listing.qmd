@@ -1,0 +1,30 @@
+---
+title: "Blog"
+listing:
+
+  - id: Stats
+    contents: "posts/stats/*.qmd"
+  - id: General
+  
+    contents: "posts/general/*.qmd"
+    sort: true
+    categories: true
+    feed: true
+    
+format: 
+  html:
+    toc: false
+---
+
+This is my attempt to write a blog of all the small tutorials that i have done in the past
+
+
+### Statistics
+
+:::{#Stats}
+:::
+
+### General Notes
+
+:::{#General}
+:::

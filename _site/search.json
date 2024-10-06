@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About me",
+    "section": "",
+    "text": "I hold a Ph.D. in developmental science with a strong focus on analyzing complex, real-world data, exploring the stories behind the data, and deriving actionable insights through advanced statistical analysis and computational modeling. I am passionate about sharing knowledge and translating detailed analyses into clear, accessible insights for diverse audiences. To further this, I created DevStart, a website where I share simple tutorials to help others understand and apply what I have learned over the years.\n \n  \n   \n  \n      CV\n  \n  \n    \n     Github\n  \n  \n    \n     twitter\n  \n  \n    \n     Linkedin\n  \n  \n      Orcid"
+  },
+  {
+    "objectID": "posts/stats/test2.html",
+    "href": "posts/stats/test2.html",
+    "title": "CV",
+    "section": "",
+    "text": "&lt;div&gt;\n  &lt;h4 class=\"card-title\"&gt;Primary card title&lt;/h4&gt;\n  &lt;p class=\"card-text\"&gt;\n    Some quick example text to build on the card title and make up the bulk of the card's content.\n  &lt;/p&gt;\n&lt;/div&gt;\n&lt;i class=\"bi bi-person-fill\" style=\"font-size: 80px;\"&gt;&lt;/i&gt;\n\n\n\n\n&lt;div&gt;\n  &lt;h4 class=\"card-title\"&gt;Primary card title&lt;/h4&gt;\n  &lt;p class=\"card-text\"&gt;\n    Some quick example text to build on the card title and make up the bulk of the card's content.\n  &lt;/p&gt;\n&lt;/div&gt;\n&lt;i class=\"bi bi-person-fill\" style=\"font-size: 80px; color: #343a40;\"&gt;&lt;/i&gt; \n\n\n\n\n&lt;h5 class=\"card-title\"&gt;Special title treatment&lt;/h5&gt;\n&lt;h6 class=\"card-subtitle text-muted\"&gt;Support card subtitle&lt;/h6&gt;\n\n  Image cap \n\n&lt;p class=\"card-text\"&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;\n\n\n&lt;a href=\"#\" class=\"card-link\"&gt;Card link&lt;/a&gt;\n&lt;a href=\"#\" class=\"card-link\"&gt;Another link&lt;/a&gt;\n\n\n2 days ago"
+  },
+  {
+    "objectID": "posts/general/test4.html",
+    "href": "posts/general/test4.html",
+    "title": "CV",
+    "section": "",
+    "text": "Primary card title\n      \n        Some quick example text to build on the card title and make up the bulk of the card's content.\n      \n    \n    \n  \n\n\n  \n    \n      Primary card title\n      \n        Some quick example text to build on the card title and make up the bulk of the card's content.\n      \n    \n     \n  \n\n\n  \n    Special title treatment\n    Support card subtitle\n  \n  \n    \n    Image cap\n  \n  \n    Some quick example text to build on the card title and make up the bulk of the card's content.\n  \n  \n    Card link\n    Another link\n  \n  \n    2 days ago"
+  },
+  {
+    "objectID": "Listing.html",
+    "href": "Listing.html",
+    "title": "Blog",
+    "section": "",
+    "text": "This is my attempt to write a blog of all the small tutorials that i have done in the past\n\nStatistics\n\n\n\n\n\n\n\n\n\n\nCV\n\n\n\n\n\n\nPython\n\n\nMixed effects modelling\n\n\n\ntesting statistics post in first file\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCV\n\n\n\n\n\n\nR\n\n\nMixed effects modelling\n\n\n\ntesting statistics post in second file\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nGeneral Notes\n\n\n\n\n\n\n\n\n\n\nCV\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInstalling python\n\n\n\n\n\n\nPython\n\n\nGetting started\n\n\n\nShort guide to how to install and manange python using Mamba. This is how i like to install python and I suggested multiple time to install python.\n\n\n\n\n\nMay 10, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me",
+    "section": "",
+    "text": "I hold a Ph.D. in developmental science with a strong focus on analyzing complex, real-world data, exploring the stories behind the data, and deriving actionable insights through advanced statistical analysis and computational modeling. I am passionate about sharing knowledge and translating detailed analyses into clear, accessible insights for diverse audiences. To further this, I created DevStart, a website where I share simple tutorials to help others understand and apply what I have learned over the years.\n \n  \n   \n  \n    \n     twitter\n  \n  \n    \n     Github\n  \n  \n    \n     Github\n  \n\n\n\n\nThis content appears below the formatted about page content."
+  },
+  {
+    "objectID": "posts/stats/test1.html",
+    "href": "posts/stats/test1.html",
+    "title": "CV",
+    "section": "",
+    "text": "&lt;div&gt;\n  &lt;h4 class=\"card-title\"&gt;Primary card title&lt;/h4&gt;\n  &lt;p class=\"card-text\"&gt;\n    Some quick example text to build on the card title and make up the bulk of the card's content.\n  &lt;/p&gt;\n&lt;/div&gt;\n&lt;i class=\"bi bi-person-fill\" style=\"font-size: 80px;\"&gt;&lt;/i&gt;\n\n\n\n\n&lt;div&gt;\n  &lt;h4 class=\"card-title\"&gt;Primary card title&lt;/h4&gt;\n  &lt;p class=\"card-text\"&gt;\n    Some quick example text to build on the card title and make up the bulk of the card's content.\n  &lt;/p&gt;\n&lt;/div&gt;\n&lt;i class=\"bi bi-person-fill\" style=\"font-size: 80px; color: #343a40;\"&gt;&lt;/i&gt; \n\n\n\n\n&lt;h5 class=\"card-title\"&gt;Special title treatment&lt;/h5&gt;\n&lt;h6 class=\"card-subtitle text-muted\"&gt;Support card subtitle&lt;/h6&gt;\n\n  Image cap \n\n&lt;p class=\"card-text\"&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;\n\n\n&lt;a href=\"#\" class=\"card-link\"&gt;Card link&lt;/a&gt;\n&lt;a href=\"#\" class=\"card-link\"&gt;Another link&lt;/a&gt;\n\n\n2 days ago"
+  },
+  {
+    "objectID": "CV.html",
+    "href": "CV.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download PDF file."
+  }
+]
