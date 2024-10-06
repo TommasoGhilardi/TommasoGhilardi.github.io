@@ -1,0 +1,15 @@
+---
+title: "InstallPython"
+format: html
+editor: visual
+---
+
+## Installing python
+
+Python is one of the most popular programming languages in general. In data science, it competes with Matlab and R for first place on the podium.
+
+In our everyday we often use python to pre-process and analyze the data. In this tutorial we will explain our preferred way of installing python and managing its libraries. There are several ways to install python this is the one I recommend for its simplicity and flexibility.
+
+## Miniforge
+
+My favorite way to install python is using miniforge!! Miniforge is an installer provided by conda-forge. Conda-Forge is a community-driven open-source project that provides a comprehensive collection of packages for Conda. It serves as an additional channel that users can add to their Conda configuration, offering access to a wide range of packages not available in the default Conda channels. Conda-Forge prioritizes well-maintained packages that adhere to best practices, establishing itself as a reliable source for Python packages. Its community-driven nature ensures a diverse and up-to-date package ecosystem, making it a valuable resource for many Python developers.
