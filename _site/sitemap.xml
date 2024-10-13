@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://tommasoghilardi.github.io/index.html</loc>
-    <lastmod>2024-10-05T20:55:31.698Z</lastmod>
-  </url>
-  <url>
-    <loc>https://tommasoghilardi.github.io/posts/stats/test2.html</loc>
-    <lastmod>2024-10-05T20:11:51.714Z</lastmod>
-  </url>
-  <url>
-    <loc>https://tommasoghilardi.github.io/posts/general/test4.html</loc>
-    <lastmod>2024-10-05T11:21:33.417Z</lastmod>
-  </url>
-  <url>
     <loc>https://tommasoghilardi.github.io/Listing.html</loc>
     <lastmod>2024-10-05T20:27:05.708Z</lastmod>
   </url>
   <url>
-    <loc>https://tommasoghilardi.github.io/about.html</loc>
-    <lastmod>2024-10-05T09:40:41.097Z</lastmod>
+    <loc>https://tommasoghilardi.github.io/posts/general/InstallPython.html</loc>
+    <lastmod>2024-10-06T13:52:36.011Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tommasoghilardi.github.io/posts/stats/test1.html</loc>
+    <lastmod>2024-10-05T20:12:07.277Z</lastmod>
   </url>
   <url>
     <loc>https://tommasoghilardi.github.io/CV.html</loc>
     <lastmod>2024-10-05T21:41:09.828Z</lastmod>
   </url>
   <url>
-    <loc>https://tommasoghilardi.github.io/posts/general/InstallPython.html</loc>
-    <lastmod>2024-10-05T20:42:13.651Z</lastmod>
+    <loc>https://tommasoghilardi.github.io/about.html</loc>
+    <lastmod>2024-10-05T09:40:41.097Z</lastmod>
   </url>
   <url>
-    <loc>https://tommasoghilardi.github.io/posts/stats/test1.html</loc>
-    <lastmod>2024-10-05T20:12:07.277Z</lastmod>
+    <loc>https://tommasoghilardi.github.io/posts/general/test4.html</loc>
+    <lastmod>2024-10-05T11:21:33.417Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tommasoghilardi.github.io/posts/stats/test2.html</loc>
+    <lastmod>2024-10-05T20:11:51.714Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tommasoghilardi.github.io/index.html</loc>
+    <lastmod>2024-10-05T20:55:31.698Z</lastmod>
   </url>
 </urlset>
