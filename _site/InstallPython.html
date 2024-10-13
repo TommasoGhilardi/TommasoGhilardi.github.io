@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About me – Tommaso Ghilardi</title>
+<title>InstallPython – Tommaso Ghilardi</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -111,48 +112,41 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#this-content-appears-below-the-formatted-about-page-content." id="toc-this-content-appears-below-the-formatted-about-page-content." class="nav-link active" data-scroll-target="#this-content-appears-below-the-formatted-about-page-content.">This content appears below the formatted about page content.</a></li>
+  <li><a href="#installing-python" id="toc-installing-python" class="nav-link active" data-scroll-target="#installing-python">Installing python</a></li>
+  <li><a href="#miniforge" id="toc-miniforge" class="nav-link" data-scroll-target="#miniforge">Miniforge</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-
-<div class="quarto-about-jolla">
-  <img src="Tommaso.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About me</h1>
+<h1 class="title">InstallPython</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-</header><div id="hero-heading">
-<p>I hold a Ph.D.&nbsp;in developmental science with a strong focus on analyzing complex, real-world data, exploring the stories behind the data, and deriving actionable insights through advanced statistical analysis and computational modeling. I am passionate about sharing knowledge and translating detailed analyses into clear, accessible insights for diverse audiences. To further this, I created <a href="https://tommasoghilardi.github.io/DevStart"><strong>DevStart</strong></a>, a website where I share simple tutorials to help others understand and apply what I have learned over the years.</p>
-</div> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://twitter.com" class="about-link" rel="" target="">
-    <i class="bi bi-twitter-x"></i>
-     <span class="about-link-text">twitter</span>
-  </a>
-  <a href="https://github.com" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="https://github.com" class="about-link" rel="" target="">
-    <i class="bi bi-ai google-scholar"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-</div>
-</div>
+  
 
-<section id="this-content-appears-below-the-formatted-about-page-content." class="level3">
-<h3 data-anchor-id="this-content-appears-below-the-formatted-about-page-content.">This content appears below the formatted about page content.</h3>
 
+</header>
+
+
+<section id="installing-python" class="level2">
+<h2 class="anchored" data-anchor-id="installing-python">Installing python</h2>
+<p>Python is one of the most popular programming languages in general. In data science, it competes with Matlab and R for first place on the podium.</p>
+<p>In our everyday we often use python to pre-process and analyze the data. In this tutorial we will explain our preferred way of installing python and managing its libraries. There are several ways to install python this is the one I recommend for its simplicity and flexibility.</p>
+</section>
+<section id="miniforge" class="level2">
+<h2 class="anchored" data-anchor-id="miniforge">Miniforge</h2>
+<p>My favorite way to install python is using miniforge!! Miniforge is an installer provided by conda-forge. Conda-Forge is a community-driven open-source project that provides a comprehensive collection of packages for Conda. It serves as an additional channel that users can add to their Conda configuration, offering access to a wide range of packages not available in the default Conda channels. Conda-Forge prioritizes well-maintained packages that adhere to best practices, establishing itself as a reliable source for Python packages. Its community-driven nature ensures a diverse and up-to-date package ecosystem, making it a valuable resource for many Python developers.</p>
 
 
 </section>
@@ -178,6 +172,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
