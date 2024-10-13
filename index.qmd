@@ -25,6 +25,24 @@ format:
     toc: false
 ---
 
+<style>
+
+div.quarto-about-jolla {
+  display: flex !important;
+  <!-- height: 100vh; -->
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2% !important; /* Optional: Adjust top margin if needed */
+  padding-bottom: 0em; /* Keeps some space at the bottom */
+  padding-top: 0em; /* Optional: Add some padding at the top */
+}
+
+</style>
+
 ::: {#hero-heading style="text-align: justify;"}
 I hold a Ph.D. in developmental science with a strong focus on analyzing complex, real-world data, exploring the stories behind the data, and deriving actionable insights through advanced statistical analysis and computational modeling. I am passionate about sharing knowledge and translating detailed analyses into clear, accessible insights for diverse audiences. To further this, I created [**DevStart**](https://tommasoghilardi.github.io/DevStart), a website where I share simple tutorials to help others understand and apply what I have learned over the years.
 :::
+
+<br><br>
+
+## Test
