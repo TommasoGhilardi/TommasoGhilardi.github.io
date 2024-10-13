@@ -21,20 +21,35 @@ about:
       
 format: 
   html:
-    page-layout: full
     toc: false
+    page-layout: full
 ---
 
 <style>
 
+main {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+#quarto-content > * {
+  padding-top: 0 !important; /* Remove the padding-top */
+}
+
 div.quarto-about-jolla {
   display: flex !important;
-  <!-- height: 100vh; -->
+  height: calc(100vh - 2.875rem); /* Adjusts based on the total height of the navbar */
   flex-direction: column;
   align-items: center;
-  margin-top: 2% !important; /* Optional: Adjust top margin if needed */
-  padding-bottom: 0em; /* Keeps some space at the bottom */
-  padding-top: 0em; /* Optional: Add some padding at the top */
+  justify-content: center; /* Center the content vertically */
+  margin: 0; /* No space above */
+  padding: 0; /* No padding at top and bottom */
+}
+
+div.quarto-about-jolla .about-image {
+  margin-top: -6em; /* Move the image up by 2em, adjust the value as needed */
+  margin-bottom: 4em; /* Add space between the image and the heading */
+  object-fit: cover;
 }
 
 </style>
@@ -42,7 +57,5 @@ div.quarto-about-jolla {
 ::: {#hero-heading style="text-align: justify;"}
 I hold a Ph.D. in developmental science with a strong focus on analyzing complex, real-world data, exploring the stories behind the data, and deriving actionable insights through advanced statistical analysis and computational modeling. I am passionate about sharing knowledge and translating detailed analyses into clear, accessible insights for diverse audiences. To further this, I created [**DevStart**](https://tommasoghilardi.github.io/DevStart), a website where I share simple tutorials to help others understand and apply what I have learned over the years.
 :::
-
-<br><br>
 
 ## Test

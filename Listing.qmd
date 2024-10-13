@@ -18,13 +18,12 @@ format:
 
 This is my attempt to write a blog of all the small tutorials that i have done in the past
 
-
 ### Statistics
 
-:::{#Stats}
+::: {#Stats}
 :::
 
 ### General Notes
 
-:::{#General}
+::: {#General}
 :::

@@ -145,6 +145,34 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
+<style>
+
+main {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+#quarto-content > * {
+  padding-top: 0 !important; /* Remove the padding-top */
+}
+
+div.quarto-about-jolla {
+  display: flex !important;
+  height: calc(100vh - 2.875rem); /* Adjusts based on the total height of the navbar */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center the content vertically */
+  margin: 0; /* No space above */
+  padding: 0; /* No padding at top and bottom */
+}
+
+div.quarto-about-jolla .about-image {
+  margin-top: -6em; /* Move the image up by 2em, adjust the value as needed */
+  margin-bottom: 4em; /* Add space between the image and the heading */
+  object-fit: cover;
+}
+
+</style>
 <div class="quarto-about-jolla column-page">
   <img src="Tommaso.jpg" class="about-image
   round " style="height: 15em; width: 15em;">
@@ -180,11 +208,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 
+<section id="test" class="level2">
+<h2 data-anchor-id="test">Test</h2>
 
 
 
 <!-- -->
 
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -674,13 +705,44 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="co">      </span></span>
 <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span><span class="co"> </span></span>
 <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co">    page-layout: full</span></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="co">    toc: false</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co">    toc: false</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="co">    page-layout: full</span></span>
 <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>::: {#hero-heading style="text-align: justify;"}</span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>I hold a Ph.D. in developmental science with a strong focus on analyzing complex, real-world data, exploring the stories behind the data, and deriving actionable insights through advanced statistical analysis and computational modeling. I am passionate about sharing knowledge and translating detailed analyses into clear, accessible insights for diverse audiences. To further this, I created <span class="co">[</span><span class="ot">**DevStart**</span><span class="co">](https://tommasoghilardi.github.io/DevStart)</span>, a website where I share simple tutorials to help others understand and apply what I have learned over the years.</span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>:::</span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>&lt;style&gt;</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>main {</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>  <span class="kw">margin-top</span><span class="ch">:</span> <span class="dv">0</span><span class="dt">em</span><span class="op">;</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>  <span class="kw">margin-bottom</span><span class="ch">:</span> <span class="dv">0</span><span class="dt">em</span><span class="op">;</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="pp">#quarto-content</span> <span class="op">&gt;</span> <span class="op">*</span> {</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>  <span class="kw">padding-top</span><span class="ch">:</span> <span class="dv">0</span> <span class="at">!important</span><span class="op">;</span> <span class="co">/* Remove the padding-top */</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>div<span class="fu">.quarto-about-jolla</span> {</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>  <span class="kw">display</span><span class="ch">:</span> <span class="dv">flex</span> <span class="at">!important</span><span class="op">;</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>  <span class="kw">height</span><span class="ch">:</span> <span class="fu">calc(</span><span class="dv">100</span><span class="dt">vh</span> <span class="op">-</span> <span class="dv">2.875</span><span class="dt">rem</span><span class="fu">)</span><span class="op">;</span> <span class="co">/* Adjusts based on the total height of the navbar */</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>  <span class="kw">flex-direction</span><span class="ch">:</span> <span class="dv">column</span><span class="op">;</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>  <span class="kw">align-items</span><span class="ch">:</span> <span class="dv">center</span><span class="op">;</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>  <span class="kw">justify-content</span><span class="ch">:</span> <span class="dv">center</span><span class="op">;</span> <span class="co">/* Center the content vertically */</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>  <span class="kw">margin</span><span class="ch">:</span> <span class="dv">0</span><span class="op">;</span> <span class="co">/* No space above */</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>  <span class="kw">padding</span><span class="ch">:</span> <span class="dv">0</span><span class="op">;</span> <span class="co">/* No padding at top and bottom */</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>div<span class="fu">.quarto-about-jolla</span> <span class="fu">.about-image</span> {</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>  <span class="kw">margin-top</span><span class="ch">:</span> <span class="dv">-6</span><span class="dt">em</span><span class="op">;</span> <span class="co">/* Move the image up by 2em, adjust the value as needed */</span></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>  <span class="kw">margin-bottom</span><span class="ch">:</span> <span class="dv">4</span><span class="dt">em</span><span class="op">;</span> <span class="co">/* Add space between the image and the heading */</span></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>  <span class="kw">object-fit</span><span class="ch">:</span> <span class="dv">cover</span><span class="op">;</span></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>&lt;/style&gt;</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>::: {#hero-heading style="text-align: justify;"}</span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>I hold a Ph.D. in developmental science with a strong focus on analyzing complex, real-world data, exploring the stories behind the data, and deriving actionable insights through advanced statistical analysis and computational modeling. I am passionate about sharing knowledge and translating detailed analyses into clear, accessible insights for diverse audiences. To further this, I created <span class="co">[</span><span class="ot">**DevStart**</span><span class="co">](https://tommasoghilardi.github.io/DevStart)</span>, a website where I share simple tutorials to help others understand and apply what I have learned over the years.</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a><span class="fu">## Test</span></span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 
