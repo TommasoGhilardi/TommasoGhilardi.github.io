@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Very short tutorial on how to interact with github using github desktop.">
 
-<title>About me – Tommaso Ghilardi</title>
+<title>Github Desktop – Tommaso Ghilardi</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,25 +21,60 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../posts/general/InstallPython.html" rel="prev">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -69,14 +105,14 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Tommaso Ghilardi</span>
     </a>
   </div>
@@ -86,11 +122,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./CV.html"> 
+    <a class="nav-link" href="../../CV.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Listing.html"> 
+    <a class="nav-link" href="../../Listing.html"> 
 <span class="menu-text">Tutorials</span></a>
   </li>  
 </ul>
@@ -99,133 +135,127 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/general/InstallPython.html">General</a></li><li class="breadcrumb-item"><a href="../../posts/general/GithubDesktop.html">Github Desktop</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-<!-- margin-sidebar -->
-    
-<!-- main -->
-<main class="content column-page" id="quarto-document-content">
-
-
-
-
-<style>
-
-main {
-  margin-top: 0em;
-  margin-bottom: 0em;
-}
-
-#quarto-content > * {
-  padding-top: 0 !important; /* Remove the padding-top */
-}
-
-div.quarto-about-jolla {
-  display: flex !important;
-  height: calc(100vh - 2.875rem); /* Adjusts based on the total height of the navbar */
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; /* Center the content vertically */
-  margin: 0; /* No space above */
-  padding: 0; /* No padding at top and bottom */
-}
-
-div.quarto-about-jolla .about-image {
-  margin-top: -6em; /* Move the image up by 2em, adjust the value as needed */
-  margin-bottom: 4em; /* Add space between the image and the heading */
-  object-fit: cover;
-  max-width: 100%; /* Ensures the image does not exceed the width of the container */
-  height: auto; /* Automatically adjusts height to maintain aspect ratio */
-}
-
-@media (max-width: 768px) {
-  div.quarto-about-jolla {
-    height: auto; /* Remove fixed height for mobile devices */
-    padding: 2em; /* Add padding for mobile readability */
-  }
-  
-  div.quarto-about-jolla .about-image {
-    margin-top: 0em; /* Prevent image from moving up on small screens */
-    margin-bottom: 2em; /* Reduce margin between the image and heading */
-    width: 100%; /* Ensure image fits within the width of mobile devices */
-    height: auto; /* Maintain the aspect ratio of the image */
-  }
-}
-
-
-</style>
-<div class="quarto-about-jolla column-page">
-  <img src="Tommaso.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">About me</h1>
-</div>
-<div class="quarto-title-meta column-page">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">General</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../posts/general/InstallPython.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Install Python</span></a>
   </div>
-</header><div id="hero-heading" style="text-align: justify;">
-<p>I hold a Ph.D.&nbsp;in developmental science with a strong focus on analyzing complex, real-world data, exploring the stories behind the data, and deriving actionable insights through advanced statistical analysis and computational modeling. I am passionate about sharing knowledge and translating detailed analyses into clear, accessible insights for diverse audiences. To further this, I created <a href="https://tommasoghilardi.github.io/DevStart"><strong>DevStart</strong></a>, a website where I share simple tutorials to help others understand and apply what I have learned over the years.</p>
-</div> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="/resources/CV_TommasoGhilardi_academia.pdf" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="pepicons-print:cv" aria-label="Icon cv from pepicons-print Iconify.design set." title="Icon cv from pepicons-print Iconify.design set."></iconify-icon> CV</span>
-  </a>
-  <a href="https://github.com" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="https://x.com/TommasoGhi" class="about-link" rel="" target="">
-    <i class="bi bi-twitter-x"></i>
-     <span class="about-link-text">Twitter</span>
-  </a>
-  <a href="https://github.com/TommasoGhilardi" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">Linkedin</span>
-  </a>
-  <a href="https://orcid.org/0000-0003-0855-2814" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="simple-icons:orcid" aria-label="Icon orcid from simple-icons Iconify.design set." title="Icon orcid from simple-icons Iconify.design set."></iconify-icon> Orcid</span>
-  </a>
-</div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../posts/general/GithubDesktop.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Github Desktop</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="4">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#github" id="toc-github" class="nav-link active" data-scroll-target="#github">Github</a>
+  <ul class="collapse">
+  <li><a href="#github-desktop-your-gateway-to-version-control" id="toc-github-desktop-your-gateway-to-version-control" class="nav-link" data-scroll-target="#github-desktop-your-gateway-to-version-control">Github desktop: your gateway to version control</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/general/InstallPython.html">General</a></li><li class="breadcrumb-item"><a href="../../posts/general/GithubDesktop.html">Github Desktop</a></li></ol></nav>
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title">Github Desktop</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i></button></div></div>
+  <div class="quarto-categories">
+    <div class="quarto-category">Github</div>
+    <div class="quarto-category">Installation</div>
+    <div class="quarto-category">Getting started</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Very short tutorial on how to interact with github using github desktop.
+  </div>
 </div>
 
-<section id="skills" class="level2">
-<h2 data-anchor-id="skills">Skills</h2>
-<div class="card text-white bg-dark mb-3" style="max-width: 100%;">
-<div class="card-body">
-<div class="card-text">
-<p><iconify-icon role="img" inline="" icon="logos:python" aria-label="Icon python from logos Iconify.design set." title="Icon python from logos Iconify.design set."></iconify-icon> <iconify-icon role="img" inline="" icon="logos:r-lang" aria-label="Icon r-lang from logos Iconify.design set." title="Icon r-lang from logos Iconify.design set."></iconify-icon><br> Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>So, you’ve started coding and your friend or supervisor suggested creating a repository for your work? Sounds like a smart move! In this tutorial, we’ll explore how to use one of the simplest tools for managing repositories and code on GitHub: GitHub Desktop.</p>
+<section id="github" class="level1">
+<h1>Github</h1>
+<div>
+<p><a href="https://github.com/"><img src="Images\Github.png" class="img-fluid" style="float: left; margin-right: 15px;" alt="Github logo" width="30"></a></p>
+<p>Let’s start with the basics: What exactly is GitHub? Put simply, GitHub is a <strong><em>code hosting platform that focuses on collaboration and version control</em></strong>. But what does that really mean?</p>
 </div>
-</div>
-</div>
+<ol type="1">
+<li><p><strong><em>Hosting platform</em></strong>: Think of GitHub as a specialized website where you can upload and store your code.</p></li>
+<li><p><strong>Collaboration</strong>: Once your code is on GitHub, you have the option to let others view it. If you choose, they can even contribute to your project, helping improve and refine your code.</p></li>
+<li><p><strong>V<em>ersion control</em></strong>: github records every change and modification to your code. This means you or others can check how the code has changed over time and in case can revert the code back to a specific stage</p></li>
+</ol>
+<p>Ok, now that you know what github is… go and <a href="https://github.com/">make an account</a>!! Come back once you are done!!!</p>
+<section id="github-desktop-your-gateway-to-version-control" class="level2">
+<h2 class="anchored" data-anchor-id="github-desktop-your-gateway-to-version-control">Github desktop: your gateway to version control</h2>
+<p>There are several ways to interact with GitHub and manage your repositories: git command line, GitKraken, GitHub Desktop, or the website interface. For beginners and those seeking simplicity, GitHub Desktop is an excellent choice.</p>
+<p><a href="https://github.com/apps/desktop">GitHub Desktop</a> offers a user-friendly approach to handle your basic version control needs. It’s straightforward enough for newcomers yet capable enough for most projects. You can easily clone repositories, commit changes, and manage your work without diving you crazy with complex commands.</p>
+<p>While GitHub Desktop is perfect for getting started and handling everyday tasks, more advanced users working on complex projects might eventually explore more powerful tools. For now, let’s focus on GitHub Desktop - it’s the ideal balance of functionality and ease of use for most us.</p>
+<p>So go <a href="https://desktop.github.com/download/">download it</a> and get back here!!</p>
+
+
+<!-- -->
+
 </section>
-<section id="test-2" class="level2">
-<h2 data-anchor-id="test-2">TEST 2</h2>
-<div class="card text-white bg-dark mb-3" style="max-width: 100%;">
-<div class="card-body">
-<div class="grid">
-<p>::: {.g-col-4 text-center} ### Python</p>
-<p><iconify-icon role="img" inline="" icon="logos:python" aria-label="Icon python from logos Iconify.design set." title="Icon python from logos Iconify.design set."></iconify-icon></p>
-</div>
-<p>::: {.g-col-4 text-center} ### R</p>
-<p><iconify-icon role="img" inline="" icon="logos:r-lang" aria-label="Icon r-lang from logos Iconify.design set." title="Icon r-lang from logos Iconify.design set."></iconify-icon></p>
-</div>
-<p>::: {.g-col-4 text-center} ### Another Title</p>
-<p><iconify-icon role="img" inline="" icon="fluent-emoji:some-other-icon" aria-label="Icon some-other-icon from fluent-emoji Iconify.design set." title="Icon some-other-icon from fluent-emoji Iconify.design set."></iconify-icon></p>
-</div>
-<p>:::</p>
-<div class="card-text">
-<p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-</div>
-<p>:::::</p>
-<!-- ::: custom-strip -->
-<!-- ## Skills -->
-<!-- ::: -->
-
-
-
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
@@ -249,6 +279,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -693,6 +730,57 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../posts/general/InstallPython.html" class="pagination-link" aria-label="Install Python">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Install Python</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Github Desktop"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> Very short tutorial on how to interact with github using github desktop.</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">image:</span><span class="co"> "Images/Icon.ico"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">metadata-keywords:</span><span class="co"> github, git, github desktop, install</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">  - Github</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">  - Installation</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">  - Getting started</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>So, you've started coding and your friend or supervisor suggested creating a repository for your work? Sounds like a smart move! In this tutorial, we'll explore how to use one of the simplest tools for managing repositories and code on GitHub: GitHub Desktop.</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu"># Github</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>&lt;div&gt;</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="al">![](Images\Github.png)</span><span class="ot">{alt="Github logo" style="float: left; margin-right: 15px;" fig-alt="Github logo" width="30"}</span><span class="co">](https://github.com/)</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>Let's start with the basics: What exactly is GitHub? Put simply, GitHub is a ***code hosting platform that focuses on collaboration and version control***. But what does that really mean?</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>&lt;/div&gt;</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="ss">1.  </span>***Hosting platform***: Think of GitHub as a specialized website where you can upload and store your code.</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="ss">2.  </span>**Collaboration**: Once your code is on GitHub, you have the option to let others view it. If you choose, they can even contribute to your project, helping improve and refine your code.</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="ss">3.  </span>**V*ersion control***: github records every change and modification to your code. This means you or others can check how the code has changed over time and in case can revert the code back to a specific stage</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>Ok, now that you know what github is... go and <span class="co">[</span><span class="ot">make an account</span><span class="co">](https://github.com/)</span>!! Come back once you are done!!!</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="fu">## Github desktop: your gateway to version control</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>There are several ways to interact with GitHub and manage your repositories: git command line, GitKraken, GitHub Desktop, or the website interface. For beginners and those seeking simplicity, GitHub Desktop is an excellent choice.</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">GitHub Desktop</span><span class="co">](https://github.com/apps/desktop)</span> offers a user-friendly approach to handle your basic version control needs. It's straightforward enough for newcomers yet capable enough for most projects. You can easily clone repositories, commit changes, and manage your work without diving you crazy with complex commands.</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>While GitHub Desktop is perfect for getting started and handling everyday tasks, more advanced users working on complex projects might eventually explore more powerful tools. For now, let's focus on GitHub Desktop - it's the ideal balance of functionality and ease of use for most us.</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>So go <span class="co">[</span><span class="ot">download it</span><span class="co">](https://desktop.github.com/download/)</span> and get back here!!</span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
 </div> <!-- /content -->
 
 

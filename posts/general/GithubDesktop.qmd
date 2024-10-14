@@ -1,0 +1,41 @@
+---
+title: "Github Desktop"
+description: Very short tutorial on how to interact with github using github desktop.
+image: "Images/Icon.ico"
+metadata-keywords: github, git, github desktop, install
+
+categories:
+  - Github
+  - Installation
+  - Getting started
+---
+
+So, you've started coding and your friend or supervisor suggested creating a repository for your work? Sounds like a smart move! In this tutorial, we'll explore how to use one of the simplest tools for managing repositories and code on GitHub: GitHub Desktop.
+
+# Github
+
+<div>
+
+[![](Images\Github.png){alt="Github logo" style="float: left; margin-right: 15px;" fig-alt="Github logo" width="30"}](https://github.com/)
+
+Let's start with the basics: What exactly is GitHub? Put simply, GitHub is a ***code hosting platform that focuses on collaboration and version control***. But what does that really mean?
+
+</div>
+
+1.  ***Hosting platform***: Think of GitHub as a specialized website where you can upload and store your code.
+
+2.  **Collaboration**: Once your code is on GitHub, you have the option to let others view it. If you choose, they can even contribute to your project, helping improve and refine your code.
+
+3.  **V*ersion control***: github records every change and modification to your code. This means you or others can check how the code has changed over time and in case can revert the code back to a specific stage
+
+Ok, now that you know what github is... go and [make an account](https://github.com/)!! Come back once you are done!!!
+
+## Github desktop: your gateway to version control
+
+There are several ways to interact with GitHub and manage your repositories: git command line, GitKraken, GitHub Desktop, or the website interface. For beginners and those seeking simplicity, GitHub Desktop is an excellent choice.
+
+[GitHub Desktop](https://github.com/apps/desktop) offers a user-friendly approach to handle your basic version control needs. It's straightforward enough for newcomers yet capable enough for most projects. You can easily clone repositories, commit changes, and manage your work without diving you crazy with complex commands.
+
+While GitHub Desktop is perfect for getting started and handling everyday tasks, more advanced users working on complex projects might eventually explore more powerful tools. For now, let's focus on GitHub Desktop - it's the ideal balance of functionality and ease of use for most us.
+
+So go [download it](https://desktop.github.com/download/) and get back here!!

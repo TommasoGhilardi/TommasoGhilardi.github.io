@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.47">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -104,34 +104,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-Stats .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-Stats'] = new List('listing-Stats', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-General .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -213,7 +185,7 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./Listing.html" aria-current="page"> 
-<span class="menu-text">Blog</span></a>
+<span class="menu-text">Tutorials</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -227,7 +199,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Getting started">Getting started <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Installation">Installation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Mixed effects modelling">Mixed effects modelling <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Python">Python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Getting started">Getting started <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Github">Github <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Installation">Installation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Python">Python <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -251,81 +223,14 @@ window.Quarto = {
 
 
 <p>This is my attempt to write a blog of all the small tutorials that i have done in the past</p>
-<section id="statistics" class="level3">
-<h3 class="anchored" data-anchor-id="statistics">Statistics</h3>
-<div id="listing-Stats" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Python,Mixed effects modelling" data-listing-file-modified-sort="1728159127277" data-listing-reading-time-sort="2" data-listing-word-count-sort="283">
-<div class="thumbnail">
-<p><a href="./posts/stats/test1.html" class="no-external"></a></p><a href="./posts/stats/test1.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/stats/test1.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/stats/test1.html" class="no-external">CV</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/stats/test1.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
-Python
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Mixed effects modelling'); return false;">
-Mixed effects modelling
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/stats/test1.html" class="no-external">testing statistics post in first file</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./posts/stats/test1.html" class="no-external"></a></p><a href="./posts/stats/test1.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="R,Mixed effects modelling" data-listing-file-modified-sort="1728159111714" data-listing-reading-time-sort="2" data-listing-word-count-sort="283">
-<div class="thumbnail">
-<p><a href="./posts/stats/test2.html" class="no-external"></a></p><a href="./posts/stats/test2.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/stats/test2.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/stats/test2.html" class="no-external">CV</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/stats/test2.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Mixed effects modelling'); return false;">
-Mixed effects modelling
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/stats/test2.html" class="no-external">testing statistics post in second file</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./posts/stats/test2.html" class="no-external"></a></p><a href="./posts/stats/test2.html" class="no-external">
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="general-notes" class="level3">
-<h3 class="anchored" data-anchor-id="general-notes">General Notes</h3>
+<!-- ### Statistics -->
+<!-- ::: {#Stats} -->
+<!-- ::: -->
+<section id="general" class="level3">
+<h3 class="anchored" data-anchor-id="general">General</h3>
 <div id="listing-General" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1728812569128" data-listing-reading-time-sort="2" data-listing-word-count-sort="222">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1728823997043" data-listing-reading-time-sort="2" data-listing-word-count-sort="222">
 <div class="thumbnail">
 <p><a href="./posts/general/test4.html" class="no-external"></a></p><a href="./posts/general/test4.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -347,7 +252,40 @@ No matching items
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Python,Installation,Getting started" data-listing-file-modified-sort="1728223265506" data-listing-reading-time-sort="3" data-listing-word-count-sort="498">
+<div class="quarto-post image-right" data-index="1" data-categories="Github,Installation,Getting started" data-listing-file-modified-sort="1728943861473" data-listing-reading-time-sort="2" data-listing-word-count-sort="320">
+<div class="thumbnail">
+<p><a href="./posts/general/GithubDesktop.html" class="no-external"></a></p><a href="./posts/general/GithubDesktop.html" class="no-external">
+<p><img loading="lazy" src="./posts/general/Images/Icon.ico" class="thumbnail-image"></p>
+</a><p><a href="./posts/general/GithubDesktop.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/general/GithubDesktop.html" class="no-external">Github Desktop</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/general/GithubDesktop.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Github'); return false;">
+Github
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Installation'); return false;">
+Installation
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Getting started'); return false;">
+Getting started
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/general/GithubDesktop.html" class="no-external">Very short tutorial on how to interact with github using github desktop.</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/general/GithubDesktop.html" class="no-external"></a></p><a href="./posts/general/GithubDesktop.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="Python,Installation,Getting started" data-listing-file-modified-sort="1728942767495" data-listing-reading-time-sort="8" data-listing-word-count-sort="1432">
 <div class="thumbnail">
 <p><a href="./posts/general/InstallPython.html" class="no-external"></a></p><a href="./posts/general/InstallPython.html" class="no-external">
 <p><img loading="lazy" src="./posts/general/Images/Icon.ico" class="thumbnail-image"></p>
@@ -868,8 +806,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Blog"</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">listing:</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">  - id: Stats</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">    contents: "posts/stats/*.qmd"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">  # - id: Stats</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">  #   contents: "posts/stats/*.qmd"</span></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">  - id: General</span></span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">  </span></span>
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">    contents: "posts/general/*.qmd"</span></span>
@@ -884,12 +822,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>This is my attempt to write a blog of all the small tutorials that i have done in the past</span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="fu">### Statistics</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- </span><span class="al">###</span><span class="co"> Statistics --&gt;</span></span>
 <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>::: {#Stats}</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- ::: {#Stats} --&gt;</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- ::: --&gt;</span></span>
 <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="fu">### General Notes</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="fu">### General </span></span>
 <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>::: {#General}</span>
 <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>:::</span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>

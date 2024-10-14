@@ -1,7 +1,7 @@
 project:
   type: website
   resources:
-    - resources/Cv.pdf
+    - resources/CV_TommasoGhilardi_academia.pdf
   output-dir: docs
     
 website:
@@ -27,7 +27,7 @@ website:
       - href: CV.qmd
         text: CV
       - href: Listing.qmd
-        text: Blog
+        text: Tutorials
   
   sidebar:
     title: " "
@@ -39,9 +39,8 @@ website:
       - section: "General"
         contents:
           - posts/general/InstallPython.qmd
+          - posts/general/GithubDesktop.qmd
 
-      - section: "Stats:"
-  
   
 
 format:
@@ -51,6 +50,9 @@ format:
     
     toc: true
     toc-expand: 4
+    lightbox:
+      match: auto
+      effect: fade
 
     # Code variables
     code-fold: false

@@ -7,5 +7,12 @@ format:
     toc: false
 ---
 
+<!-- {{< pdf /resources/Cv.pdf width=100% height=100% >}} -->
+::: {.panel-tabset}
+## Academia formatted
+{{< pdf file="/resources/CV_TommasoGhilardi_academia.pdf"  height="1200px">}}
 
-{{< pdf /resources/Cv.pdf width=600px height=400px >}}
+## Industry formatted
+{{< pdf file="/resources/CV_TommasoGhilardi_industry.pdf"  height="1200px">}}
+
+:::
