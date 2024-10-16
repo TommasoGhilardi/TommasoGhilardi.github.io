@@ -1,0 +1,29 @@
+---
+title: "Tutorials"
+listing:
+
+  # - id: Stats
+  #   contents: "posts/stats/*.qmd"
+  - id: General
+  
+    contents: "posts/general/*.qmd"
+    sort: true
+    categories: true
+    feed: true
+    
+format: 
+  html:
+    toc: false
+---
+
+This is my attempt to put together some tutorials that I think might be useful for others.
+
+<!-- ### Statistics -->
+
+<!-- ::: {#Stats} -->
+<!-- ::: -->
+
+### General 
+
+::: {#General}
+:::

@@ -1,0 +1,122 @@
+---
+title: "About me"
+about:
+  id: hero-heading
+  template: jolla
+  image: Tommaso.jpg
+  links:
+    - text: "{{< iconify pepicons-print cv >}} CV"
+      href: resources/CV_TommasoGhilardi_academia.pdf
+    - icon: github
+      text: Github
+      href: https://github.com
+    - icon: twitter-x
+      text: Twitter
+      href: https://x.com/TommasoGhi
+    - icon: linkedin
+      text: Linkedin
+      href: https://github.com/TommasoGhilardi
+    - text: "{{< iconify simple-icons orcid >}} Orcid"
+      href: https://orcid.org/0000-0003-0855-2814
+      
+format: 
+  html:
+    toc: false
+    page-layout: full
+    code-tools:
+      source: false
+---
+
+<style>
+
+main {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+#quarto-content > * {
+  padding-top: 0 !important; /* Remove the padding-top */
+}
+
+div.quarto-about-jolla {
+  display: flex !important;
+  height: calc(100vh - 2.875rem); /* Adjusts based on the total height of the navbar */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center the content vertically */
+  margin: 0; /* No space above */
+  padding: 0; /* No padding at top and bottom */
+}
+
+div.quarto-about-jolla .about-image {
+  margin-top: -6em; /* Move the image up by 2em, adjust the value as needed */
+  margin-bottom: 4em; /* Add space between the image and the heading */
+  object-fit: cover;
+  max-width: 100%; /* Ensures the image does not exceed the width of the container */
+  height: auto; /* Automatically adjusts height to maintain aspect ratio */
+}
+
+@media (max-width: 768px) {
+  div.quarto-about-jolla {
+    height: auto; /* Remove fixed height for mobile devices */
+    padding: 2em; /* Add padding for mobile readability */
+  }
+  
+  div.quarto-about-jolla .about-image {
+    margin-top: 0em; /* Prevent image from moving up on small screens */
+    margin-bottom: 2em; /* Reduce margin between the image and heading */
+    width: 100%; /* Ensure image fits within the width of mobile devices */
+    height: auto; /* Maintain the aspect ratio of the image */
+  }
+}
+
+
+</style>
+
+::: {#hero-heading style="text-align: justify;"}
+I am a Postdoc at the Centre for Brain and Cognitive Development, Birkbeck Univer- sity, studying how young minds learn to predict events and interact with their environment. My research combines behavioural experiments, eye-tracking, brain imaging, and computational mod- elling to explore the development of children’s predictive abilities and strategies for navigating the world. In addition, I share my knowledge through [DevStart](https://tommasoghilardi.github.io/DevStart), a website I created with my colleagues to offer simple tutorials and insights on developmental science.
+:::
+
+<!-- ## Skills -->
+
+<!-- ::::: {.card .text-white .bg-dark .mb-3 style="max-width: 100%;"} -->
+<!-- :::: card-body -->
+<!-- ::: card-text -->
+<!-- {{< iconify logos:python >}} {{< iconify logos:r-lang >}}<br> Some quick example text to build on the card title and make up the bulk of the card's content. -->
+<!-- ::: -->
+<!-- :::: -->
+<!-- ::::: -->
+
+<!-- ## TEST 2 -->
+
+<!-- ::::: {.card .text-white .bg-dark .mb-3 style="max-width: 100%;"} -->
+<!-- :::: card-body -->
+<!-- ::: grid -->
+<!-- ::: {.g-col-4 text-center} \### Python\ -->
+<!-- {{< iconify logos:python >}} -->
+<!-- ::: -->
+
+<!-- ::: {.g-col-4 text-center} \### R\ -->
+<!-- {{< iconify logos:r-lang >}} -->
+<!-- :::: -->
+
+<!-- ::: {.g-col-4 text-center} \### Another Title\ -->
+<!-- {{< iconify some-other-icon >}} -->
+<!-- ::::: -->
+
+<!-- ::: -->
+
+<!-- ::: card-text -->
+<!-- Some quick example text to build on the card title and make up the bulk of the card's content. -->
+<!-- ::: -->
+
+<!-- ::::: -->
+
+
+
+
+<!-- ::: custom-strip -->
+
+<!-- ## Skills -->
+
+<!-- ::: -->

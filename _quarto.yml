@@ -1,0 +1,71 @@
+project:
+  type: website
+  resources:
+    - resources/CV_TommasoGhilardi_academia.pdf
+  output-dir: docs
+    
+website:
+  title: "Tommaso Ghilardi"
+  description: "I hold a Ph.D. in developmental science with a strong focus on analyzing complex, real-world data, exploring the stories behind the data, and deriving actionable insights through advanced statistical analysis and computational modeling. I am passionate about sharing knowledge and translating detailed analyses into clear, accessible insights for diverse audiences."
+  site-url: "https://tommasoghilardi.github.io"
+  
+  
+  # Utilities
+  back-to-top-navigation: true
+  page-navigation: true
+  reader-mode: false
+  
+  search:
+    location: sidebar
+    type: textbox
+  
+  
+  navbar:
+    background: dark
+    
+    right:
+      - href: Listing.qmd
+        text: Tutorials
+      - href: CV.qmd
+        text: CV
+  
+  sidebar:
+    title: " "
+    style: "floating"
+    border: true
+    align: center
+
+    contents:
+      - section: "General"
+        contents:
+          - posts/general/InstallPython.qmd
+          - posts/general/GithubDesktop.qmd
+
+  
+
+format:
+  html:
+    theme: _style.scss
+    mainfont: 'Arial'
+    
+    toc: true
+    toc-expand: 4
+    lightbox:
+      match: auto
+      effect: fade
+
+    # Code variables
+    code-fold: false
+    code-copy: true
+    code-link: true
+    code-overflow: scroll
+    code-tools:
+      source: true
+      toggle: true
+      caption: none
+    highlight-style: zenburn
+    code-block-background: true
+    code-block-border-left: "#00B3B3"
+    
+editor: visual
+

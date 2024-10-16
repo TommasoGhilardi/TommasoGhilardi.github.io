@@ -1,0 +1,215 @@
+/*-- scss:defaults --*/
+
+$font-family-sans-serif: "Roboto", "Segoe UI", "Helvetica Neue", Helvetica, sans-serif;
+$font-family-monospace: "Fira Mono", "Menlo", "Andale Mono", monospace;
+$font-size-root: 16px;
+$h1-font-size: 2.2em;
+$h2-font-size: 1.75em;
+$h3-font-size: 1.5em;
+$h4-font-size: 1.25em;
+$toc-color: #008080;
+
+
+/*-- scss:rules --*/
+
+:root {
+    --bs-body-font-weight: 300;
+    /*--link-color: #007bff; /* Bright blue for links */
+    --sidebar-active-color: #008080; /* Teal for active links in the sidebar and TOC */
+
+    --toc-border-color: #dee2e6;
+
+    --sidebar-fg: #495057; /* Dark gray for sidebar text */
+    --sidebar-bg-docked: #f8f9fa; /* Light gray for sidebar background */
+    --sidebar-border: #dee2e6;
+    --sidebar-part-color: #0056b3; /* Darker blue for sidebar headings */
+    --sidebar-input-border: #ced4da;
+    --sidebar-form-bg: transparent;
+
+    --figure-img-border: 1px solid #dee2e6;
+    --figure-img-shadow: 1px 1px 10px #dee2e6;
+    
+    --bs-code-color: #9653cb/*#7d12ba*/;
+    --bs-code-bg: #d5d8d8; /* #DFE2E2 Light Gray */
+
+    --hl-code-comments: #6c757d; /* Gray for code comments */
+
+    --header-footer-border: #dee2e6;
+
+    --table-tr-border: #dee2e6;
+    --table-out-borders: #adb5bd; /* Light gray for table borders */
+    --table-tr-hover: rgba(0, 123, 255, 0.1); /* Light blue for table row hover */
+
+    --reader-toggle-bg: #f8f9fa;
+    --reader-toggle-border: #ced4da;
+
+    --callout-color: #495057; /* Dark gray for callout text */
+    --callout-warning-bg: #fff3cd; /* Light yellow for warning callouts */
+    --callout-warning-title: #856404; /* Dark yellow for warning callout titles */
+    --callout-note-bg: #cce5ff; /* Light blue for note callouts */
+    --callout-note-title: #004085; /* Dark blue for note callout titles */
+    --callout-important-bg: #f8d7da; /* Light pink for important callouts */
+    --callout-important-title: #721c24; /* Dark pink for important callout titles */
+    --callout-caution-bg: #fff3cd; /* Light yellow for caution callouts */
+    --callout-caution-title: #856404; /* Dark yellow for caution callout titles */
+    --callout-tip-bg: #d4edda; /* Light green for tip callouts */
+    --callout-tip-title: #155724; /* Dark green for tip callout titles */
+
+    --listing-card-border: #ced4da;
+    --listing-card-shadow: rgba(0, 0, 0, 0.05);
+    --listing-card-shadow-hover: rgba(0, 0, 0, 0.1);
+    
+    --bs-link-color-rgb: 0, 112, 112;
+    --bs-link-hover-color-rgb: 0, 168, 168;
+}
+
+
+// INLINE CODE COLOR
+p code:not(.sourceCode), 
+li code:not(.sourceCode), 
+td code:not(.sourceCode) {
+    background-color: var(--bs-code-bg);
+    color: var(--bs-code-color);
+    padding: .2em;
+    border-radius: 3px;
+}
+
+
+
+
+// CODE OUTPUT BACKGROUND
+$code-output-bg: #f0f2f4; // Replace with your desired background color
+$code-output-color: #2d2d2d; // Replace with your desired text color
+$code-output-border-left-color: #A9C3C6; // Replace with your desired left border color
+
+// Apply styles to .cell-output.cell-output-stdout only
+.cell-output.cell-output-stdout {
+    background-color: $code-output-bg;
+    color: $code-output-color;
+    padding: 1px 4px 1px 4px; // Increase bottom padding to 10px
+    margin-bottom: 5px; // Add space below the cell output
+    border-top: none; 
+    border-left: 2px solid $code-output-border-left-color;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 1px; // Optional: for squared corners
+    overflow: auto; // Ensure long code doesn't overflow the container
+}
+
+// Ensure no borders on pre elements
+pre {
+    border: none; // Remove any borders on pre elements
+    background: transparent; // Make sure the background is transparent if you don't want any background
+    padding: 0; // Remove padding if there's any applied by default
+}
+
+// Ensure no extra borders on the inner code element
+pre code {
+    border: none; // Remove any borders on the inner code element
+    background: transparent; // Make sure the background is transparent
+    padding: 0; // Remove padding if there's any applied by default
+    color: inherit; // Ensure the text color inherits from the container
+}
+
+
+
+
+// SIDEBAR
+#quarto-sidebar,
+#quarto-content .sidebar-navigation {
+    .sidebar-item-container {
+        margin-bottom: 0.9em; /* Increased space between sidebar items */
+
+        a {
+            color: var(--sidebar-fg);
+            transition: color 0.3s;
+        }
+
+        a.active,
+        a:hover {
+            font-family: var(--toc-font-family);
+            color: var(--sidebar-active-color);
+            border-left: 3px solid var(--sidebar-active-color);
+            padding-left: 15px;
+        }
+
+        /* Making main sections bold */
+        .sidebar-item {
+            font-weight: bold;
+        }
+    }
+}
+
+
+// SIDEBAR STYLING
+
+/* Style the section headers bold */
+#quarto-sidebar .sidebar-item.sidebar-item-section > .sidebar-item-container > a {
+    font-weight: bold;
+}
+
+
+.sidebar-logo {
+  max-width: 12em;
+  padding-bottom: .5em;
+}
+
+/* Increase size of sidebar tools icons */
+.sidebar-navigation .quarto-navigation-tool {
+  font-size: 1.1em; // Increase this value to make icons bigger
+}
+
+
+// TOC
+/* Page Headings in TOC on Right Side */
+#quarto-margin-sidebar,
+#quarto-content .margin-sidebar,
+#quarto-sidebar #TOC {
+    ul {
+        li a {
+            font-family: var(--toc-font-family);
+            color: var(--sidebar-fg); /* Set color to match the default sidebar text color */
+            transition: color 0.3s;
+        }
+
+        li a.active,
+        li a:hover {
+            color: var(--sidebar-active-color);
+            border-left: 3px solid var(--sidebar-active-color);
+            padding-left: 15px;
+        }
+    }
+}
+
+
+
+
+
+/* Ensure all text is justified */
+p, li, div, section {
+    text-align: justify;
+}
+
+
+
+// The left hand sidebar
+$grid-sidebar-width: 250px !default;
+
+// The main body
+$grid-body-width: 950px !default;
+
+// The right hand margin bar
+$grid-margin-width: 300px !default;
+
+// The gutter that appears between the above columns
+$grid-column-gutter-width: 1.5rem !default;
+
+
+
+strong, b {
+    font-weight: 700; /* Ensures bold text is rendered properly */
+}
+
+
+
+
