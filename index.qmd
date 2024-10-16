@@ -80,40 +80,54 @@ I am a Postdoc at the Centre for Brain and Cognitive Development, Birkbeck Unive
 <!-- ## Skills -->
 
 <!-- ::::: {.card .text-white .bg-dark .mb-3 style="max-width: 100%;"} -->
+
 <!-- :::: card-body -->
+
 <!-- ::: card-text -->
+
 <!-- {{< iconify logos:python >}} {{< iconify logos:r-lang >}}<br> Some quick example text to build on the card title and make up the bulk of the card's content. -->
+
 <!-- ::: -->
+
 <!-- :::: -->
+
 <!-- ::::: -->
 
 <!-- ## TEST 2 -->
 
 <!-- ::::: {.card .text-white .bg-dark .mb-3 style="max-width: 100%;"} -->
+
 <!-- :::: card-body -->
+
 <!-- ::: grid -->
+
 <!-- ::: {.g-col-4 text-center} \### Python\ -->
+
 <!-- {{< iconify logos:python >}} -->
+
 <!-- ::: -->
 
 <!-- ::: {.g-col-4 text-center} \### R\ -->
+
 <!-- {{< iconify logos:r-lang >}} -->
+
 <!-- :::: -->
 
 <!-- ::: {.g-col-4 text-center} \### Another Title\ -->
+
 <!-- {{< iconify some-other-icon >}} -->
+
 <!-- ::::: -->
 
 <!-- ::: -->
 
 <!-- ::: card-text -->
+
 <!-- Some quick example text to build on the card title and make up the bulk of the card's content. -->
+
 <!-- ::: -->
 
 <!-- ::::: -->
-
-
-
 
 <!-- ::: custom-strip -->
 

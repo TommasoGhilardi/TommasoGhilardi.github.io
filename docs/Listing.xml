@@ -10,7 +10,7 @@
 <atom:link href="https://tommasoghilardi.github.io/Listing.xml" rel="self" type="application/rss+xml"/>
 <description>I hold a Ph.D. in developmental science with a strong focus on analyzing complex, real-world data, exploring the stories behind the data, and deriving actionable insights through advanced statistical analysis and computational modeling. I am passionate about sharing knowledge and translating detailed analyses into clear, accessible insights for diverse audiences.</description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Wed, 16 Oct 2024 00:19:48 GMT</lastBuildDate>
+<lastBuildDate>Wed, 16 Oct 2024 01:09:24 GMT</lastBuildDate>
 <item>
   <title>Github Desktop</title>
   <link>https://tommasoghilardi.github.io/posts/general/GithubDesktop.html</link>
@@ -238,7 +238,7 @@ Important
   <category>Installation</category>
   <category>Getting started</category>
   <guid>https://tommasoghilardi.github.io/posts/general/GithubDesktop.html</guid>
-  <pubDate>Wed, 16 Oct 2024 00:19:48 GMT</pubDate>
+  <pubDate>Wed, 16 Oct 2024 01:09:24 GMT</pubDate>
   <media:content url="https://tommasoghilardi.github.io/posts/general/Images/GitHubDesktoppng.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -450,7 +450,7 @@ font-style: inherit;">mamba</span> install spyder</span></code></pre></div>
   <category>Installation</category>
   <category>Getting started</category>
   <guid>https://tommasoghilardi.github.io/posts/general/InstallPython.html</guid>
-  <pubDate>Wed, 16 Oct 2024 00:19:48 GMT</pubDate>
+  <pubDate>Wed, 16 Oct 2024 01:09:24 GMT</pubDate>
   <media:content url="https://tommasoghilardi.github.io/posts/general/Images/Icon.ico" medium="image"/>
 </item>
 </channel>
