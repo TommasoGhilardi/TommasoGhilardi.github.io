@@ -24,10 +24,10 @@ website:
     background: dark
     
     right:
-      - href: CV.qmd
-        text: CV
       - href: Listing.qmd
         text: Tutorials
+      - href: CV.qmd
+        text: CV
   
   sidebar:
     title: " "

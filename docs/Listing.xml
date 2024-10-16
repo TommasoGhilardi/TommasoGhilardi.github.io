@@ -10,65 +10,7 @@
 <atom:link href="https://tommasoghilardi.github.io/Listing.xml" rel="self" type="application/rss+xml"/>
 <description>I hold a Ph.D. in developmental science with a strong focus on analyzing complex, real-world data, exploring the stories behind the data, and deriving actionable insights through advanced statistical analysis and computational modeling. I am passionate about sharing knowledge and translating detailed analyses into clear, accessible insights for diverse audiences.</description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Mon, 14 Oct 2024 22:13:04 GMT</lastBuildDate>
-<item>
-  <title>CV</title>
-  <link>https://tommasoghilardi.github.io/posts/general/test4.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="card text-white bg-dark mb-3 rounded d-flex">
-<div class="d-flex justify-content-between align-items-start p-3" style="width: 100%;">
-<pre><code>&lt;div&gt;
-  &lt;h4 class="card-title"&gt;Primary card title&lt;/h4&gt;
-  &lt;p class="card-text"&gt;
-    Some quick example text to build on the card title and make up the bulk of the card's content.
-  &lt;/p&gt;
-&lt;/div&gt;
-&lt;i class="bi bi-person-fill" style="font-size: 80px;"&gt;&lt;/i&gt;</code></pre>
-</div>
-</div>
-<div class="card text-black bg-secondary mb-3 rounded d-flex">
-<div class="d-flex justify-content-between align-items-start p-3" style="width: 100%;">
-<pre><code>&lt;div&gt;
-  &lt;h4 class="card-title"&gt;Primary card title&lt;/h4&gt;
-  &lt;p class="card-text"&gt;
-    Some quick example text to build on the card title and make up the bulk of the card's content.
-  &lt;/p&gt;
-&lt;/div&gt;
-&lt;i class="bi bi-person-fill" style="font-size: 80px; color: #343a40;"&gt;&lt;/i&gt; </code></pre>
-</div>
-</div>
-<div class="card mb-3 rounded">
-<div class="card-body">
-<pre><code>&lt;h5 class="card-title"&gt;Special title treatment&lt;/h5&gt;
-&lt;h6 class="card-subtitle text-muted"&gt;Support card subtitle&lt;/h6&gt;</code></pre>
-</div>
-<svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" preserveaspectratio="xMidYMid slice" viewbox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
-</svg><p><rect width="100%" height="100%" fill="#868e96"></rect> <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></p>
-
-<div class="card-body">
-<pre><code>&lt;p class="card-text"&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;</code></pre>
-</div>
-<div class="card-body">
-<pre><code>&lt;a href="#" class="card-link"&gt;Card link&lt;/a&gt;
-&lt;a href="#" class="card-link"&gt;Another link&lt;/a&gt;</code></pre>
-</div>
-<div class="card-footer text-muted">
-<pre><code>2 days ago</code></pre>
-</div>
-</div>
-
-
-<!-- -->
-
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <guid>https://tommasoghilardi.github.io/posts/general/test4.html</guid>
-  <pubDate>Mon, 14 Oct 2024 22:13:04 GMT</pubDate>
-</item>
+<lastBuildDate>Wed, 16 Oct 2024 00:19:48 GMT</lastBuildDate>
 <item>
   <title>Github Desktop</title>
   <link>https://tommasoghilardi.github.io/posts/general/GithubDesktop.html</link>
@@ -78,6 +20,16 @@
 
 
 <p>So, you’ve started coding and your friend or supervisor suggested creating a repository for your work? Sounds like a smart move! In this tutorial, we’ll explore how to use one of the simplest tools for managing repositories and code on GitHub: GitHub Desktop.</p>
+<div class="alert alert-dismissible alert-warning">
+<button type="button" class="btn-close" data-bs-dismiss="alert">
+</button>
+<h4 class="alert-heading anchored">
+<p>Warning!</p>
+</h4>
+<p class="mb-0">
+</p><p>Please note that this tutorial is very basic and aims to introduce some key concepts of Git and GitHub through GitHub Desktop. It’s not intended to be an exhaustive guide. It’s designed for someone who has heard of GitHub but doesn’t know where to start. There’s much more to explore and learn beyond what’s covered here!</p>
+<p></p>
+</div>
 <section id="github" class="level1">
 <h1>Github</h1>
 <div>
@@ -85,9 +37,12 @@
 <p>Let’s start with the basics: What exactly is GitHub? Put simply, GitHub is a <strong><em>code hosting platform that focuses on collaboration and version control</em></strong>. But what does that really mean?</p>
 </div>
 <ol type="1">
-<li><p><strong><em>Hosting platform</em></strong>: Think of GitHub as a specialized website where you can upload and store your code.</p></li>
-<li><p><strong>Collaboration</strong>: Once your code is on GitHub, you have the option to let others view it. If you choose, they can even contribute to your project, helping improve and refine your code.</p></li>
-<li><p><strong>V<em>ersion control</em></strong>: github records every change and modification to your code. This means you or others can check how the code has changed over time and in case can revert the code back to a specific stage</p></li>
+<li><p><strong>Hosting platform</strong>:<br>
+Think of GitHub as a specialized website where you can upload and store your code.</p></li>
+<li><p><strong>Collaboration</strong>:<br>
+Once your code is on GitHub, you have the option to let others view it. If you choose, they can even contribute to your project, helping improve and refine your code.</p></li>
+<li><p><strong>Version control</strong>:<br>
+GitHub records every change and modification to your code. This means you or others can check how the code has changed over time and in case can revert the code back to a specific stage.</p></li>
 </ol>
 <p>Ok, now that you know what github is… go and <a href="https://github.com/">make an account</a>!! Come back once you are done!!!</p>
 <section id="github-desktop-your-gateway-to-version-control" class="level2">
@@ -95,12 +50,187 @@
 <p>There are several ways to interact with GitHub and manage your repositories: git command line, GitKraken, GitHub Desktop, or the website interface. For beginners and those seeking simplicity, GitHub Desktop is an excellent choice.</p>
 <p><a href="https://github.com/apps/desktop">GitHub Desktop</a> offers a user-friendly approach to handle your basic version control needs. It’s straightforward enough for newcomers yet capable enough for most projects. You can easily clone repositories, commit changes, and manage your work without diving you crazy with complex commands.</p>
 <p>While GitHub Desktop is perfect for getting started and handling everyday tasks, more advanced users working on complex projects might eventually explore more powerful tools. For now, let’s focus on GitHub Desktop - it’s the ideal balance of functionality and ease of use for most us.</p>
-<p>So go <a href="https://desktop.github.com/download/">download it</a> and get back here!!</p>
+<p>So go <a href="https://desktop.github.com/download/">download it</a> and get back here!! Once installed you need to log in and then you are ready for your first repository.</p>
+</section>
+<section id="make-your-first-repository" class="level2">
+<h2 class="anchored" data-anchor-id="make-your-first-repository">Make your first repository</h2>
+<p>Ok now we are in!! Let’s create a new repository. You can click on “<em>File</em>” and then “<em>New repository…</em>” (you can also just press CTRL + N).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Images/GithubNewR.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://tommasoghilardi.github.io/posts/general/Images/GithubNewR.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Github desktop new repository" width="663"></a></p>
+</figure>
+</div>
+<p>Now let’s go through the process of setting up your repository:</p>
+<ul>
+<li><p><strong>Name</strong>: Give a name to your repository. In this example, it’s simply called “Test.”</p></li>
+<li><p><strong>Description</strong>: This is, as it sounds, a brief description of what your repository is all about.</p></li>
+<li><p><strong>Local path</strong>: This is essentially where GitHub Desktop will create the folder for your repository. In this case, it will create a Test folder on the desktop (as mentioned at the bottom of the interface).</p></li>
+<li><p><strong>README check-box</strong>: This allows you to include a README file in the folder that will be created. We’ll discuss the README file later, but for now, know that it’s a file using markdown where you can add information about your repository. It’s the first interface between your code and someone checking your repository. It’s advisable to always have a README file. At worst, you can keep it empty initially.</p></li>
+<li><p><strong>Git ignore</strong>: This is a file where you can specify files that GitHub won’t track changes for. For simple projects, you often won’t need it.</p></li>
+<li><p><strong>License</strong>: This allows you to specify the license you want to use for your code. While it’s often overlooked, it’s worth considering how you want your code to be used by others.</p></li>
+</ul>
+<p>For our first repository these settings will work fine. Click create and then lets see what happened.</p>
+<section id="publish" class="level3">
+<h3 class="anchored" data-anchor-id="publish">Publish</h3>
+<p>You’ll notice that GitHub Desktop is displaying two key pieces of information. First, it’s indicating that there are “No local changes” (we still haven’t done anything). Just below this, you’ll see a prominent blue button prompting you to publish your repository.</p>
+<p>At this point, your repository exists only on your local machine, in the folder we created earlier. When we publish it to GitHub, the repository will be saved online, making it accessible from any device.</p>
+<p>Now, let’s proceed with publishing your repository.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Images/GithubPublishR.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://tommasoghilardi.github.io/posts/general/Images/GithubPublishR.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Github desktop publish repository" width="663"></a></p>
+</figure>
+</div>
+<p>The main option to consider here is the “<em>Keep this code private</em>” checkbox. This determines whether just you or everyone on GitHub will be able to see your repository. As this is just a test repository, it’s advisable to keep it private.</p>
+<p>In the organization tab, you can choose whether to publish the repository in your personal account or in an organization you’re part of. For this basic tutorial, we’ll assume you’re not part of any organization yet, so you should leave this set to “<em>None</em>.”</p>
+<p>Go ahead and publish your repository. It will take a few seconds, and then you’re done. Your repository is now on GitHub! If you check it online, it should look something like this:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Images/GithubOverwievR.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://tommasoghilardi.github.io/posts/general/Images/GithubOverwievR.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="overview github repository" width="619"></a></p>
+</figure>
+</div>
+<p>It may appear quite empty at first glance, but there’s an important detail to note. Below the list of files, you’ll notice a rendering of the README file. Currently, this file only contains a title (“Test”) and the simple description of our repository that we provided earlier.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Additional files
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>note that there may be additional files in your repository folder on the pc and on the github website. These are files that github auto generates and are needed to keep everything in check. As this is a basic tutorial please ignore them. They do not hurt!</p>
+</div>
+</div>
+<p>However, we can (and we will) modify the README file to display all the information we want to show on the main page of the repository. This README file is a powerful tool for presenting your project to visitors, and we’ll explore how to make the most of it as we progress.</p>
+</section>
+<section id="changes" class="level3">
+<h3 class="anchored" data-anchor-id="changes">Changes</h3>
+<p>Let’s return to our local folder and make some changes. In this example, we’ll add a Python file called <code>example.py</code>. The content of this file is a simple loop that prints “Such a nice repository” 1000 times. The specific code isn’t crucial; you can add any file or code you prefer.</p>
+<p>Now that we’ve added a file, we want our README file to reflect and explain our code. Let’s open the README file (you can use any text editor you’re comfortable with). We’ll add a line to describe our new file: <em>The example.py file is a simple Python file that uses a loop to print “Such a nice repository” 1000 times.</em></p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Markdown
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>README files on GitHub use Markdown, a simple syntax for formatting text. For example, to make text bold, you should enclose it in asterisks: * <strong>bold</strong> *. I won’t cover how to write in Markdown (and its different varieties), but you can check it out here.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Folders
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You can not only add files to a repository but also folders. The key advantage of adding folders, besides organizing your code better, is that each folder can have its own README file. This allows for more detailed explanations of the code and purpose of each section.</p>
+</div>
+</div>
+</section>
+<section id="commit" class="level3">
+<h3 class="anchored" data-anchor-id="commit">Commit</h3>
+<p>After making these changes, let’s return to GitHub Desktop. You’ll notice that GitHub Desktop displays the files with changes on the left side of the app. The README file is marked with a yellow icon because it was modified, while the Python file is green since it’s a new file. If we had removed a file, it would be marked with a red icon.</p>
+<p>On the right we can see the actual changes.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Images/GithubChangesR.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://tommasoghilardi.github.io/posts/general/Images/GithubChangesR.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="632"></a></p>
+</figure>
+</div>
+<p>The most important section isn’t the list of changes but the bottom left part, where we can add a summary (mandatory!) and a short description of the changes. For example, in the summary, we could write <em>“Adding Python file”</em> and in the description, <em>“Python file looping 1000 times and printing ‘Such a nice repository’.”</em> Once that’s done, we can press <strong>Commit to main</strong>.</p>
+<p>But what does Commit mean? A <strong><em>commit is one of the three core actions when using Git and GitHub</em></strong>. Committing your changes means saving them and preparing them to be part of the repository, but it doesn’t immediately affect the remote repository (the one on GitHub). Instead, the changes are recorded locally on your machine.</p>
+<p>Commits are a great way to keep track of your changes. Whenever you modify your code for a specific reason, it’s a good practice to commit those changes with a clear summary and description. This helps in tracking changes over time and makes it easier to revert to previous versions if needed (we’ll cover more on that later).</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Note that commits can be stacked, meaning you can make changes, commit, then make more changes and commit again, and so on. You have flexibility in how often you want to commit. You don’t want so many that you get lost in useless summaries, but commit often enough to highlight specific changes clearly.</p>
+</div>
+</div>
+</section>
+<section id="push" class="level3">
+<h3 class="anchored" data-anchor-id="push">Push</h3>
+<p>We have now registered (committed) our changes, but they only exist on our local machine. To add them to our GitHub repository, GitHub Desktop suggests we “Push origin” with a big blue button.</p>
+<p>What does “push” mean? This is the <strong><em>second core action when using Git and GitHub</em></strong>. Pushing sends your committed changes from your local machine to the remote repository on GitHub, making them available for others (or yourself) to access from anywhere. Ok, let’s try! Push you commits to Github. It will just take 1 second and tada!! your update code is on github.</p>
+</section>
+<section id="pull" class="level3">
+<h3 class="anchored" data-anchor-id="pull">Pull</h3>
+<p>Pull is the <strong><em>third and last core action when using Git and GitHub.</em></strong> Pulling updates your local repository with the changes that have been made on the remote repository (the one on GitHub).</p>
+<p>For example, imagine you accessed your repository from another computer, made changes, and pushed those changes to GitHub. Now, on a different machine, your local repository isn’t up to date with those changes. By pulling from GitHub, you download and integrate the changes into your local repository, ensuring you can continue working from where you left off.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>It’s possible that you’re not the only one updating the GitHub repository. If you’re collaborating with others, they may have made changes that you don’t yet have on your local machine. In that case, you would need to pull those changes to ensure your local repository stays in sync with the remote repository and includes all updates made by your collaborators.</p>
+</div>
+</div>
+<p>For the sake of this tutorial, I went online to my Test repository and added another line to the README (“The code is complex”). I committed the change directly online (no need to push, since the change was made in the remote repository). Now, GitHub Desktop is notifying me that the remote repository has changes that my local folder does not have. By pressing <strong>Pull</strong>, my local folder will be updated with these changes!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Images/GithubPullR.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://tommasoghilardi.github.io/posts/general/Images/GithubPullR.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="632"></a></p>
+</figure>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You may need to press <strong>Fetch origin</strong> in GitHub Desktop to check if there are any changes in the remote GitHub repository that are not yet in your local repository. This action updates GitHub Desktop with the latest information from the remote repository, letting you know if there are any changes that need to be pulled.</p>
+</div>
+</div>
+</section>
+<section id="reset-commit" class="level3">
+<h3 class="anchored" data-anchor-id="reset-commit">Reset Commit</h3>
+<p>You might be wondering, <em>Isn’t this more complex than services like OneDrive or Google Drive, where you just add code to a folder and it syncs between devices?</em> Well, yes and no!</p>
+<p>GitHub offers several advantages over simply syncing files with those other services. First and foremost, GitHub is fantastic for sharing and collaborating on the same code with multiple people because:…</p>
+<ol type="1">
+<li><p><strong>Version control</strong>: GitHub tracks every change made to your files, allowing you to revert to previous versions, view history, and compare changes.</p></li>
+<li><p><strong>Branching and merging</strong>: You can create separate branches to work on features or fixes without disturbing the main code, then merge them back when they’re ready.</p></li>
+<li><p><strong>Collaboration tools</strong>: GitHub makes it easy to collaborate with others through pull requests, code reviews, and issue tracking, keeping the workflow organized.</p></li>
+</ol>
+<p>Those are all amazing reasons, but to be honest, if you’re just starting out, many of them won’t apply to you right away! However, there is <strong>one advantage</strong> you can leverage even now—<strong>version control</strong>.</p>
+<p>As we mentioned earlier, GitHub tracks all the changes you commit to your repository. This tracking isn’t just for show! You can actually go back to a specific commit, for example, to undo code changes that might have been wrong or problematic. This ability to revert to an earlier version of your code can save you a lot of time and headaches, even as a beginner!</p>
+<p>Go to GitHub Desktop and click on the <strong>History</strong> section on the left side. Find the commit you want to remove, right-click on it, and select <strong>Revert changes in commit</strong>. In our case, we want to remove the previous commit we pulled from GitHub that added the line saying “The code is complex,” and we want to undo that change!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Images/GithubRemoveCommitR.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="https://tommasoghilardi.github.io/posts/general/Images/GithubRemoveCommitR.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="632"></a></p>
+</figure>
+</div>
+<p>Tada! We’ve removed the change! Now, if you want to update the GitHub repository as well (not just the local one), simply push the new changes online. This will ensure that the remote repository reflects the undoing of the previous commit.</p>
+</section>
+</section>
+</section>
+<section id="the-end" class="level1">
+<h1>The end!</h1>
+<p>This is the end! I hope this tutorial helped you get started with GitHub Desktop. Remember, there’s much, much more to Git and GitHub. Explore GitHub’s website to learn more, and don’t forget there are plenty of tutorials around the web to dive deeper into specific features and workflows. Keep exploring and happy coding!</p>
 
 
 <!-- -->
 
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
@@ -108,8 +238,8 @@
   <category>Installation</category>
   <category>Getting started</category>
   <guid>https://tommasoghilardi.github.io/posts/general/GithubDesktop.html</guid>
-  <pubDate>Mon, 14 Oct 2024 22:13:04 GMT</pubDate>
-  <media:content url="https://tommasoghilardi.github.io/posts/general/Images/Icon.ico" medium="image"/>
+  <pubDate>Wed, 16 Oct 2024 00:19:48 GMT</pubDate>
+  <media:content url="https://tommasoghilardi.github.io/posts/general/Images/GitHubDesktoppng.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Install Python</title>
@@ -320,7 +450,7 @@ font-style: inherit;">mamba</span> install spyder</span></code></pre></div>
   <category>Installation</category>
   <category>Getting started</category>
   <guid>https://tommasoghilardi.github.io/posts/general/InstallPython.html</guid>
-  <pubDate>Mon, 14 Oct 2024 22:13:04 GMT</pubDate>
+  <pubDate>Wed, 16 Oct 2024 00:19:48 GMT</pubDate>
   <media:content url="https://tommasoghilardi.github.io/posts/general/Images/Icon.ico" medium="image"/>
 </item>
 </channel>

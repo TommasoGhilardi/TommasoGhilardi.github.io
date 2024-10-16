@@ -206,7 +206,9 @@ $grid-column-gutter-width: 1.5rem !default;
 
 
 
-
+strong, b {
+    font-weight: 700; /* Ensures bold text is rendered properly */
+}
 
 
 

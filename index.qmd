@@ -74,44 +74,43 @@ div.quarto-about-jolla .about-image {
 </style>
 
 ::: {#hero-heading style="text-align: justify;"}
-I hold a Ph.D. in developmental science with a strong focus on analyzing complex, real-world data, exploring the stories behind the data, and deriving actionable insights through advanced statistical analysis and computational modeling. I am passionate about sharing knowledge and translating detailed analyses into clear, accessible insights for diverse audiences. To further this, I created [**DevStart**](https://tommasoghilardi.github.io/DevStart), a website where I share simple tutorials to help others understand and apply what I have learned over the years.
+I am a Postdoc at the Centre for Brain and Cognitive Development, Birkbeck Univer- sity, studying how young minds learn to predict events and interact with their environment. My research combines behavioural experiments, eye-tracking, brain imaging, and computational mod- elling to explore the development of children’s predictive abilities and strategies for navigating the world. In addition, I share my knowledge through [DevStart](https://tommasoghilardi.github.io/DevStart), a website I created with my colleagues to offer simple tutorials and insights on developmental science.
 :::
 
-## Skills
+<!-- ## Skills -->
 
-::::: {.card .text-white .bg-dark .mb-3 style="max-width: 100%;"}
-:::: card-body
-::: card-text
-{{< iconify logos:python >}} {{< iconify logos:r-lang >}}<br> Some quick example text to build on the card title and make up the bulk of the card's content.
-:::
-::::
-:::::
+<!-- ::::: {.card .text-white .bg-dark .mb-3 style="max-width: 100%;"} -->
+<!-- :::: card-body -->
+<!-- ::: card-text -->
+<!-- {{< iconify logos:python >}} {{< iconify logos:r-lang >}}<br> Some quick example text to build on the card title and make up the bulk of the card's content. -->
+<!-- ::: -->
+<!-- :::: -->
+<!-- ::::: -->
 
-## TEST 2
+<!-- ## TEST 2 -->
 
+<!-- ::::: {.card .text-white .bg-dark .mb-3 style="max-width: 100%;"} -->
+<!-- :::: card-body -->
+<!-- ::: grid -->
+<!-- ::: {.g-col-4 text-center} \### Python\ -->
+<!-- {{< iconify logos:python >}} -->
+<!-- ::: -->
 
-::::: {.card .text-white .bg-dark .mb-3 style="max-width: 100%;"}
-:::: card-body
-::: {.grid}
-::: {.g-col-4 text-center}
-### Python  
-{{< iconify logos:python >}}
-:::
-::: {.g-col-4 text-center}
-### R  
-{{< iconify logos:r-lang >}}
-:::
-::: {.g-col-4 text-center}
-### Another Title  
-{{< iconify some-other-icon >}}
-:::
-:::
+<!-- ::: {.g-col-4 text-center} \### R\ -->
+<!-- {{< iconify logos:r-lang >}} -->
+<!-- :::: -->
 
-::: card-text
-Some quick example text to build on the card title and make up the bulk of the card's content.
-:::
-:::::
+<!-- ::: {.g-col-4 text-center} \### Another Title\ -->
+<!-- {{< iconify some-other-icon >}} -->
+<!-- ::::: -->
 
+<!-- ::: -->
+
+<!-- ::: card-text -->
+<!-- Some quick example text to build on the card title and make up the bulk of the card's content. -->
+<!-- ::: -->
+
+<!-- ::::: -->
 
 
 

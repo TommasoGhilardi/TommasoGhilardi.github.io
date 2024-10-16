@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Tutorials"
 listing:
 
   # - id: Stats
@@ -16,7 +16,7 @@ format:
     toc: false
 ---
 
-This is my attempt to write a blog of all the small tutorials that i have done in the past
+This is my attempt to put together some tutorials that I think might be useful for others.
 
 <!-- ### Statistics -->
 
