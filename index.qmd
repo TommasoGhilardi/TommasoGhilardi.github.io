@@ -9,13 +9,13 @@ about:
       href: resources/CV_TommasoGhilardi_academia.pdf
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/TommasoGhilardi
     - icon: twitter-x
       text: Twitter
       href: https://x.com/TommasoGhi
     - icon: linkedin
       text: Linkedin
-      href: https://github.com/TommasoGhilardi
+      href: https://www.linkedin.com/in/tommaso-ghilardi-661212136/
     - text: "{{< iconify simple-icons orcid >}} Orcid"
       href: https://orcid.org/0000-0003-0855-2814
       
