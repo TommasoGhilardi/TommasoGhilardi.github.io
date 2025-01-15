@@ -2,6 +2,7 @@
   {
     "listing": "/Listing.html",
     "items": [
+      "/posts/stats/MixedEffectsModels.html",
       "/posts/general/GithubDesktop.html",
       "/posts/general/InstallPython.html"
     ]

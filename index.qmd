@@ -27,6 +27,7 @@ format:
       source: false
 ---
 
+```{=html}
 <style>
 
 main {
@@ -72,6 +73,7 @@ div.quarto-about-jolla .about-image {
 
 
 </style>
+```
 
 ::: {#hero-heading style="text-align: justify;"}
 I am a Postdoc at the Centre for Brain and Cognitive Development, Birkbeck Univer- sity, studying how young minds learn to predict events and interact with their environment. My research combines behavioural experiments, eye-tracking, brain imaging, and computational mod- elling to explore the development of children’s predictive abilities and strategies for navigating the world. In addition, I share my knowledge through [DevStart](https://tommasoghilardi.github.io/DevStart), a website I created with my colleagues to offer simple tutorials and insights on developmental science.

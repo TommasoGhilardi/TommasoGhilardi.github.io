@@ -4,10 +4,17 @@ execute:
 project:
   type: website
   resources:
-    - resources/CV_TommasoGhilardi_academia.pdf
+    - resources/
   output-dir: docs
     
 website:
+
+  cookie-consent:
+    type: implied
+    style: headline 
+    palette: dark
+  google-analytics: "G-PZ7H48R58M "
+  
   title: "Tommaso Ghilardi"
   description: "I hold a Ph.D. in developmental science with a strong focus on analyzing complex, real-world data, exploring the stories behind the data, and deriving actionable insights through advanced statistical analysis and computational modeling. I am passionate about sharing knowledge and translating detailed analyses into clear, accessible insights for diverse audiences."
   site-url: "https://tommasoghilardi.github.io"
@@ -43,8 +50,9 @@ website:
         contents:
           - posts/general/InstallPython.qmd
           - posts/general/GithubDesktop.qmd
-
-  
+      - section: "Stats"
+        contents:
+          - posts/stats/MixedEffectsModels.qmd
 
 format:
   html:

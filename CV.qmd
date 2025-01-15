@@ -7,12 +7,64 @@ format:
     toc: false
 ---
 
-<!-- {{< pdf /resources/Cv.pdf width=100% height=100% >}} -->
-::: {.panel-tabset}
+
+
+# Curriculum
+
+
+::: panel-tabset
 ## Academia formatted
-{{< pdf file="/resources/CV_TommasoGhilardi_academia.pdf"  height="1800px">}}
+
+```{=html}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centering an Iframe</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        iframe {
+            width: 80%; /* Adjust width as needed */
+            height: 80vh; /* Full viewport height */
+            border: none; /* Remove border for a clean look */
+        }
+    </style>
+</head>
+<body>
+    <iframe src="resources/CV_TommasoGhilardi_academia.pdf#view=FitH&navpanes=0"></iframe>
+</body>
+```
 
 ## Industry formatted
-{{< pdf file="/resources/CV_TommasoGhilardi_industry.pdf"  height="1800px">}}
-
+```{=html}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centering an Iframe</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        iframe {
+            width: 80%; /* Adjust width as needed */
+            height: 80vh; /* Full viewport height */
+            border: none; /* Remove border for a clean look */
+        }
+    </style>
+</head>
+<body>
+    <iframe src="resources/CV_TommasoGhilardi_industry.pdf#view=FitH&navpanes=0"></iframe>
+</body>
+```
 :::
