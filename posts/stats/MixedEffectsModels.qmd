@@ -66,7 +66,7 @@ two = ggplot(data, aes(x = V1, y = V2)) +
   geom_point(aes(color = Department)) +
   geom_smooth(aes(color = Department), method = "lm", alpha = 0.3) +
   geom_smooth(method = "lm", alpha = 0.3)+
-  labs(y='Salary', x='Year of experience', title = "B. Linear model acounting for hierarchical structure")+
+  labs(y='Salary', x='Year of experience', title = "B. Linear model acounting for grouping structure")+
   theme_bw(base_size = 20)+
   theme(legend.position = 'bottom')
 

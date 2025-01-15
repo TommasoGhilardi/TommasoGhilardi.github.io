@@ -10,7 +10,7 @@
 <atom:link href="https://tommasoghilardi.github.io/Listing.xml" rel="self" type="application/rss+xml"/>
 <description>I hold a Ph.D. in developmental science with a strong focus on analyzing complex, real-world data, exploring the stories behind the data, and deriving actionable insights through advanced statistical analysis and computational modeling. I am passionate about sharing knowledge and translating detailed analyses into clear, accessible insights for diverse audiences.</description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Wed, 15 Jan 2025 10:08:08 GMT</lastBuildDate>
+<lastBuildDate>Wed, 15 Jan 2025 10:55:01 GMT</lastBuildDate>
 <item>
   <title>Linear mixed effect modesl</title>
   <link>https://tommasoghilardi.github.io/posts/stats/MixedEffectsModels.html</link>
@@ -419,7 +419,7 @@ font-style: inherit;">'Year of experience'</span>, title <span class="op" style=
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"B. Linear model acounting for hierarchical structure"</span><span class="op" style="color: #5E5E5E;
+font-style: inherit;">"B. Linear model acounting for grouping structure"</span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -2252,7 +2252,7 @@ Warning
   <category>Stats</category>
   <category>Mixed effects models</category>
   <guid>https://tommasoghilardi.github.io/posts/stats/MixedEffectsModels.html</guid>
-  <pubDate>Wed, 15 Jan 2025 10:08:08 GMT</pubDate>
+  <pubDate>Wed, 15 Jan 2025 10:55:01 GMT</pubDate>
 </item>
 <item>
   <title>Github Desktop</title>
@@ -2481,7 +2481,7 @@ Important
   <category>Installation</category>
   <category>Getting started</category>
   <guid>https://tommasoghilardi.github.io/posts/general/GithubDesktop.html</guid>
-  <pubDate>Wed, 15 Jan 2025 10:08:08 GMT</pubDate>
+  <pubDate>Wed, 15 Jan 2025 10:55:01 GMT</pubDate>
   <media:content url="https://tommasoghilardi.github.io/posts/general/Images/GitHubDesktoppng.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
@@ -2693,7 +2693,7 @@ font-style: inherit;">mamba</span> install spyder</span></code></pre></div>
   <category>Installation</category>
   <category>Getting started</category>
   <guid>https://tommasoghilardi.github.io/posts/general/InstallPython.html</guid>
-  <pubDate>Wed, 15 Jan 2025 10:08:08 GMT</pubDate>
+  <pubDate>Wed, 15 Jan 2025 10:55:01 GMT</pubDate>
   <media:content url="https://tommasoghilardi.github.io/posts/general/Images/Icon.ico" medium="image"/>
 </item>
 </channel>
