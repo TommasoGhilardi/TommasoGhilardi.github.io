@@ -125,13 +125,14 @@ To run our Linear Mixed Effects Model, these are the key packages we'll use. On 
 
 ```{r ReadData}
 db = read.csv('../../resources/simulation/simulated_data.csv')
-db = db %>% filter(subject_id <10)
 db$subject_id = factor(db$subject_id) # make sure subject_id is a factor
 
 head(db)
 ```
 
 This dataset contains several columns. The **performance** column holds our primary variable of interest, the performance score. The **condition** column tells us the experimental condition under which the data was collected, while **trial_number** marks the specific trial, and **subject_id** gives each participant a unique identifier.
+
+After reading in the data, I make sure that `subject_id` is treated as a **factor** (a categorical variable) rather than a continuous one. This is important because `subject_id` represents distinct individuals, and treating it as continuous would lead the models to interpret it as a numeric variable, which is incorrect.
 
 Before diving into modeling, it’s always a good idea to visualize your data first. So, let’s use `ggplot2` (a package from the `tidyverse` family) to get a quick look at our data. This will help us understand the structure and spot any patterns or oddities right away. Let’s do it!
 
